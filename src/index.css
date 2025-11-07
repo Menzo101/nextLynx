@@ -331,6 +331,29 @@ body {
   padding: 0 15px;
 }
 
+#abt {
+  color: white;
+
+}
+
+.value-icon {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: #135ae9;
+
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #4b84db;
+}
+
+
 .vision-heading {
   font-size: 3rem;
   color: white;
@@ -399,20 +422,7 @@ body {
   text-align: center;
 }
 
-.value-icon {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  color: #135ae9;
-  background-color: #10234a;
-  height: 40px;
-  width: 40px;
-  padding: 10px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 /* let build section */
 .build-heading h1 {

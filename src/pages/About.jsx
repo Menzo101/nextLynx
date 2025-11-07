@@ -44,7 +44,7 @@ const About = () => {
         <div className="value-container">
           <div className="value-card">
             <div className="value-icon">
-              <FaRegLightbulb />
+              <FaRegLightbulb id="abt" />
             </div>
             <h2>Innovation</h2>
             <p>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
           <div className="value-card">
             <div className="value-icon">
-              <MdOutlineHealthAndSafety />
+              <MdOutlineHealthAndSafety id="abt" />
             </div>
             <h2>Intergrity</h2>
             <p>
@@ -64,7 +64,7 @@ const About = () => {
           </div>
           <div className="value-card">
             <div className="value-icon">
-              <RiTeamFill />
+              <RiTeamFill id="abt" />
             </div>
             <h2>Collaboration</h2>
             <p>
