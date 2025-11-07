@@ -39,7 +39,7 @@ export const teammember = [
   {
     id: 5,
     name: "Adejumo Joyce",
-    role: "Product Manager ",
+    role: "Project Manager ",
     image: adeolaimage,
   },
   {
