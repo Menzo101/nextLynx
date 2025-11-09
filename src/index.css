@@ -543,6 +543,20 @@ input[type="text"] {
   font-weight: 400;
 }
 
+input[type="email"] {
+  display: block;
+  padding: 15px;
+  width: 70%;
+  margin-top: 7px;
+  outline: none;
+  border: 0.1px solid rgb(58, 56, 56);
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 #textMessage {
   display: block;
   padding: 15px;

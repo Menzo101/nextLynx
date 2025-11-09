@@ -12,11 +12,16 @@ const Newsletter = () => {
               exclusive project updates straight to your inbox.
             </p>
           </div>
-          <form className="newsletter-form">
+          <form
+            className="newsletter-form"
+            action="https://formsubmit.co/nextlynxai@gmail.com"
+            method="POST"
+          >
             <input
               type="email"
               placeholder="Enter your email address"
               required
+              name="email"
             />
             <button type="submit">Subscribe</button>
           </form>

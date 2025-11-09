@@ -41,22 +41,31 @@ const Letbuild = () => {
 
       {/* message form  */}
       <div className="messageForm">
-        <h2>Contact From</h2>
-        <form action="">
+        <h2>Contact Form</h2>
+        <form action="https://formsubmit.co/nextlynxai@gmail.com" method="POST">
           <div className="messageBox">
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourwebsite.com/thank-you"
+            />
             <label htmlFor="">
               Fullname
-              <input type="text" placeholder="Samuel" />
+              <input type="text" placeholder="Samuel" name="fullname" />
             </label>
           </div>
           <div className="messageBox">
             <label htmlFor="">
               Work Email
-              <input type="text" placeholder="samuel@company.com" />
+              <input
+                type="email"
+                placeholder="samuel@company.com"
+                name="email"
+              />
             </label>
           </div>
           <div className="messageBox">
-            <label htmlFor="">
+            <label htmlFor="messageBox">
               Message
               <textarea
                 name="message"
