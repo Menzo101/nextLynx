@@ -21,7 +21,7 @@ const Newsletter = () => {
             <input
               type="hidden"
               name="_next"
-              value="http://next-lynxai.vercel.app//thankyou"
+              value="https://next-lynxai.vercel.app/thankyou"
             />
             <input
               type="email"
