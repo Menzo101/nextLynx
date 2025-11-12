@@ -48,7 +48,7 @@ const Letbuild = () => {
             <input
               type="hidden"
               name="_next"
-              value="https://next-lynxai.vercel.app//thankyou"
+              value="http://next-lynxai.vercel.app//thankyou"
             />
             <label htmlFor="">
               Fullname
