@@ -17,7 +17,7 @@ const Thankyou = () => {
             <a href="/" className="btn-primary">
               Home Page
             </a>
-            <a href="/learn-more" className="btn-secondary">
+            <a href="/about" className="btn-secondary">
               About Us
             </a>
           </div>
