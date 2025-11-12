@@ -15,8 +15,14 @@ const Newsletter = () => {
           <form
             className="newsletter-form"
             action="https://formsubmit.co/nextlynxai@gmail.com"
-            method="POST"
+            method="post"
           >
+            <input type="hidden" name="_captcha" value="false"></input>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://next-lynxai.vercel.app//thankyou"
+            />
             <input
               type="email"
               placeholder="Enter your email address"

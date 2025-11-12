@@ -9,6 +9,7 @@ import Faq from "../components/Faq.jsx";
 import Footer from "../components/Footer.jsx";
 import NewsLetter from "../components/Newsletter.jsx";
 import Testimonial from "../components/Testimonial.jsx";
+import Thankyou from "../components/Thankyou.jsx";
 
 const Home = () => {
   return (
@@ -83,6 +84,7 @@ const Home = () => {
       <NewsLetter />
 
       <Footer />
+      <Thankyou />
     </>
   );
 };

@@ -42,12 +42,13 @@ const Letbuild = () => {
       {/* message form  */}
       <div className="messageForm">
         <h2>Contact Form</h2>
-        <form action="https://formsubmit.co/nextlynxai@gmail.com" method="POST">
+        <form action="https://formsubmit.co/nextlynxai@gmail.com" method="post">
+          <input type="hidden" name="_captcha" value="false"></input>
           <div className="messageBox">
             <input
               type="hidden"
               name="_next"
-              value="https://yourwebsite.com/thank-you"
+              value="https://next-lynxai.vercel.app//thankyou"
             />
             <label htmlFor="">
               Fullname
@@ -76,7 +77,9 @@ const Letbuild = () => {
               ></textarea>
             </label>
           </div>
-          <button id="submit-btn">Send Message</button>
+          <button id="submit-btn" type="submit">
+            Send Message
+          </button>
         </form>
       </div>
     </>
